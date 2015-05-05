@@ -1,0 +1,114 @@
+body {color: black; background: white; margin: 0; padding: 0;}
+table {width: 100%; margin: 5; padding: 5; font-size: small}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a{color:#086d95;font-variant:normal;font-weight:bold;text-decoration:none;background-color:transparent}
+a:hover{color:#d27300;font-variant:normal;font-weight:bold;text-decoration:none;background-color:transparent}
+div{font-family:Verdana, Arial, Helvetica, sans-serif;}
+h1 {}
+h2 {}
+h3 {}
+h4{text-align:left;}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #2F5376}
+input.formButton {}
+.item {border: 1px solid #cccccc;}
+.itemHead {padding: 3px; color:#314582; background-color:#ffdfae; border:solid 1pt #f90}
+.itemInfo {text-align: right; padding: 3px; color:#006; background-color:#d9d9d9; border:solid 1pt #f90}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #ffffff; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic; color:#808080;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px; color:#006; background-color:#d9d9d9; border:solid 1pt #f90;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; color:#314582; background-color:#ffdfae; border:solid 1pt #f90f}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+th {background-color: #0c4444; color: #FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+td#headerbanner {width: 100%; background-color: #2F5376; vertical-align: middle; text-align:center;}
+td#headerbar {border-bottom: 0px solid #dddddd;}
+td#leftcolumn {background-color: #ffdfae; width: 170px; padding-left: 0px solid #0c4444; font-size:12px;}
+td#leftcolumn th {background-color: #dddddd; color: #FFFFFF; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 3px; background-color: #ff9900; color: #ffffff; font-weight: bold;}
+td#leftcolumn div.blockContent {padding: 3px; line-height: 120%; line-height: 120%;}
+td#centercolumn {font-size: 10px;}
+td#centercolumn th {background-color: #0c4444; color: #FFFFFF; vertical-align: middle;}
+td#centerCcolumn {padding: 0px 0px 0px 0px;}
+td#centerCcolumn legend.blockTitle {padding: 0px; color: black; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px;}
+td#centerCcolumn div.blockContent {border-left: 2px solid #ff9900; border-right: 2px solid #ff9900; border-bottom: 2px solid #ff9900; border-top: 2px solid #ff9900; padding: 3px; margin-right: 0px; margin-left: 0px; margin-bottom: 1px; line-height: 120%;}
+td#centerLcolumn {width: 50%; padding: 0px 0px 0px 0px;}
+td#centerLcolumn legend.blockTitle {padding: 0px; color: black; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {border-left: 2px solid #ff9900; border-right: 2px solid #ff9900; border-bottom: 2px solid #ff9900; border-top: 2px solid #ff9900; padding: 3px; margin-left: 1px; margin-right: 1px; margin-bottom: 1px; line-height: 120%;}
+td#centerRcolumn {width: 50%; padding: 0px 0px 0px 0px;}
+td#centerRcolumn legend.blockTitle {padding: 0px; color: black; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {border-left: 2px solid #ff9900; border-right: 2px solid #ff9900; border-bottom: 2px solid #ff9900; border-top: 2px solid #ff9900; padding: 3px; margin-left: 1px; margin-right: 1px; margin-bottom: 1px; line-height: 120%;}
+div#content {text-align: left; padding: 8px;}
+td#rightcolumn {width: 170px; border-left: 0px solid #cccccc; font-size:12px;}
+td#rightcolumn th {background-color: #9F7800; color: White; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 6px; background-color: #ff9900; color: #ffffff; font-weight: bold;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 120%;}
+tr#footerbar {text-align:center; background-image: url(hbar.gif);}
+td#mainmenu a {display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {background-color: #FFCC66;}
+td#mainmenu a.menuTop {border-bottom: 1px dotted #000000; font-size: 11px; padding-left: 3px;}
+td#mainmenu a.menuMain {font-size: 11px; border-bottom: 1px dotted #000000; padding-left: 3px;}
+td#mainmenu a.menuSub {border-bottom: 1px dotted #000000; font-size: 11px; padding-left: 6px; color: #FF9900;}
+td#usermenu a {border-bottom: 1px dotted #000000; font-size: 11px; display: block; margin: 0; padding: 4px;}
+td#usermenu a:hover {background-color: #FFCC66;}
+td#usermenu a.menuTop {font-size: 11px;}
+td#usermenu a.highlight {}
+.outer {border: 1px solid silver;}
+.head {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+.even {background-color: #dee3e7; padding: 5px;}
+.odd {background-color: #E9E9E9; padding: 5px;}
+.foot {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #dee3e7; padding: 5px;}
+tr.odd td {background-color: #E9E9E9; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+.bg1{color:#000;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:#f5f5f5}
+.bg1 a{color:#006;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg1 a:hover{color:#f00;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg2{color:#006;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:#d9d9d9;border:solid 1pt #f90}
+.bg2 a{color:#000;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg2 a:hover{color:#f00;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg3{color:black;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:#e9e9e9}
+.bg3 a{color:#003;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg3 a:hover{color:#f00;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg4{color:#000;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:#ccc}
+.bg4 a{color:#006800;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.bg4 a:hover{color:#f00;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-headline{color:#fff;font-weight:bolder;font-size:20px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-headline a{color:#000;font-weight:normal;font-size:20px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-headline a:hover{color:#f00;font-weight:normal;font-size:20px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-more{color:#314582;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:#ffdfae;border:solid 1pt #f90}
+.em-more a{color:#314582;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-more a:hover{color:#f00;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-newscont{color:#000000;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-newscont a{color:#ff0000;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-newscont a:hover{color:#cccccc;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-poster{color:#808080;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none}
+.em-poster a{color:#ff8c00;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.em-poster a:hover{color:#f00;font-weight:normal;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.fg1{color:#314582;font-weight:bolder;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.fg1 a{color:#000000;font-weight:bolder;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.fg1 a:hover{color:#ffffff;font-weight:bolder;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.fg2{color:#314582;font-weight:normal;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.fg2 a{color:#000;font-weight:bolder;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
+.fg2 a:hover{color:#ff4500;font-weight:bolder;font-size:14px;font-family:Verdana, Arial, Helvetica, sans-serif;text-decoration:none;background-color:transparent}
